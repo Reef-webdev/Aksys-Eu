@@ -2178,7 +2178,7 @@ input[type='checkbox'] {
 } */
 
 .card__media:before{
-  content: 'ON SALE';
+  content: '';
   position: absolute;
   background-image: url(preorder.jpg);
   background-size:100px ;
@@ -2186,7 +2186,7 @@ input[type='checkbox'] {
   width: 100%;
   height: 100%;
   /* opacity: .3; */
-  z-index: 999;
+  /* z-index: 999; */
 }
 .announcement-bar__link {
   display: block;
