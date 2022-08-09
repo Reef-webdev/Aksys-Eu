@@ -2169,6 +2169,12 @@ input[type='checkbox'] {
   background-repeat: no-repeat;
 }
 
+.card:before{
+  content: 'ON SALE';
+  position: absolute;
+  background-color: red;
+  
+}
 
 .announcement-bar__link {
   display: block;
