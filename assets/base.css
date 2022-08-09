@@ -2179,7 +2179,7 @@ input[type='checkbox'] {
 
 .card__media:before{
   content: 'ON SALE';
-  position: fixed;
+  position: absolute;
   background-image: url(preorder.jpg);
   background-size:100px ;
   background-repeat:repeat-x;
