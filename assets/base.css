@@ -2187,7 +2187,7 @@ input[type='checkbox'] {
   height: 100%;
   order: 1;
   /* opacity: .3; */
-  /* z-index: 999; */
+  z-index: 999;
 }
 .announcement-bar__link {
   display: block;
