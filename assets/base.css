@@ -2173,7 +2173,8 @@ input[type='checkbox'] {
   content: 'ON SALE';
   position: absolute;
   background-color: red;
-  
+  background-position: center;
+  background-repeat: no-repeat
 }
 
 .announcement-bar__link {
