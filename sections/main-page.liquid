@@ -17,8 +17,16 @@
     }
   }
 {%- endstyle -%}
+<style>
+#watermark{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;
+}
+</style>
 
-<div class="page-width page-width--narrow section-{{ section.id }}-padding">
+<div class="page-width page-width--narrow section-{{ section.id }}-padding" id="watermark">
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
