@@ -2161,21 +2161,21 @@ input[type='checkbox'] {
   color: rgb(var(--color-foreground));
 }
 
-.announcement-bar:before {
+/* .announcement-bar:before {
   content: 'I am a watermark';
   position: absolute;
   background-color: brown;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
-.card:before {
+/* .card:before {
   content: 'ON SALE';
   position: fixed;
   background-color: red;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
 .card__media{
   content: 'ON SALE';
