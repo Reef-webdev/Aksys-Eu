@@ -2177,7 +2177,7 @@ input[type='checkbox'] {
   background-repeat: no-repeat;
 } */
 
-.card__media{
+.card__media:before{
   content: 'ON SALE';
   position: fixed;
   background-image: url(preorder.jpg);
