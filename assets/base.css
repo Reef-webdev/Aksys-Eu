@@ -2169,9 +2169,9 @@ input[type='checkbox'] {
   background-repeat: no-repeat;
 }
 
-.card:before{
+.card:before {
   content: 'ON SALE';
-  position: absolute;
+  position: fixed;
   background-color: red;
   background-position: center;
   background-repeat: no-repeat
