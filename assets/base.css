@@ -2161,6 +2161,15 @@ input[type='checkbox'] {
   color: rgb(var(--color-foreground));
 }
 
+.announcement-bar:before {
+  content: 'I am a watermark';
+  position: absolute;
+  background-color: brown;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 .announcement-bar__link {
   display: block;
   width: 100%;
