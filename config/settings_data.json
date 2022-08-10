@@ -142,6 +142,7 @@
           },
           "fdf93c9d-dc53-42f7-81ed-bc5fdfb70c9c": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "For EU  customers Click here",
               "color_scheme": "background-1",
