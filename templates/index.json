@@ -501,7 +501,7 @@
     "1660228157c4fb5f9d": {
       "type": "custom-eg",
       "settings": {
-        "custom_liquid": "<img src=\"logo.png\"\">\n<img src=\"logo.png\">"
+        "custom_liquid": "{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}\n\n{%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}\n  {%- style -%}\n  @media screen and (max-width: 749px) {\n    #Banner-{{ section.id }}::before,\n    #Banner-{{ section.id }} .banner__media::before,\n    #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {\n      padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;\n      content: '';\n      display: block;\n    }\n  }\n\n  @media screen and (min-width: 750px) {\n    #Banner-{{ section.id }}::before,\n    #Banner-{{ section.id }} .banner__media::before {\n      padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;\n      content: '';\n      display: block;\n    }\n  }\n  {%- endstyle -%}\n{%- endif -%}\n\n{%- style -%}\n  #Banner-{{ section.id }}::after {\n    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};\n  }\n{%- endstyle -%}\n<img src=\"logo1.png\"\">\n<img src=\"logo2.png\">"
       }
     }
   },
