@@ -497,6 +497,12 @@
         "padding_top": 12,
         "padding_bottom": 84
       }
+    },
+    "1660228157c4fb5f9d": {
+      "type": "custom-eg",
+      "settings": {
+        "custom_liquid": "<img src=\"logo.png\"\">\n<img src=\"logo.png\">"
+      }
     }
   },
   "order": [
@@ -512,6 +518,7 @@
     "image-with-text-2",
     "16593628283412789d",
     "1659362742112c76c9",
-    "newslettter"
+    "newslettter",
+    "1660228157c4fb5f9d"
   ]
 }
