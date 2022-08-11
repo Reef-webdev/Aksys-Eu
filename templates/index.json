@@ -411,6 +411,103 @@
         "padding_bottom": 76
       }
     },
+    "16602296063aebd9a9": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1660229606f54b8ffa-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "1660229606f54b8ffa-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1660229606f54b8ffa-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1660229606f54b8ffa-0",
+        "1660229606f54b8ffa-1",
+        "1660229606f54b8ffa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AKSYs_Offical_Site_Button6.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1660230877c4712b5f": {
+      "type": "multicolumn",
+      "blocks": {
+        "16602308774aa9c9cd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OL_Cafe-enchante.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16602308774aa9c9cd-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OL_Piofiore.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16602308774aa9c9cd-0",
+        "16602308774aa9c9cd-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16593628283412789d": {
       "type": "rich-text",
       "blocks": {
@@ -497,57 +594,6 @@
         "padding_top": 12,
         "padding_bottom": 84
       }
-    },
-    "16602296063aebd9a9": {
-      "type": "image-banner",
-      "blocks": {
-        "1660229606f54b8ffa-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "1660229606f54b8ffa-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "1660229606f54b8ffa-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1660229606f54b8ffa-0",
-        "1660229606f54b8ffa-1",
-        "1660229606f54b8ffa-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/AKSYs_Offical_Site_Button6.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -561,9 +607,10 @@
     "collection-list",
     "multicolumn",
     "image-with-text-2",
+    "16602296063aebd9a9",
+    "1660230877c4712b5f",
     "16593628283412789d",
     "1659362742112c76c9",
-    "newslettter",
-    "16602296063aebd9a9"
+    "newslettter"
   ]
 }
