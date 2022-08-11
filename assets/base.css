@@ -2918,13 +2918,12 @@ details-disclosure > details {
 /* Additional Styling Code - Alvin */
 
 .button {
- border: 1px solid #cccccc !important;
+ border: 4px solid #cccccc !important;
 }
 
 .button:hover {
       background-color:#3271b7;
       color: #FFFFFF;
       transition: 0.7s;
-      border: solid #cccccc !important;
   }
 
