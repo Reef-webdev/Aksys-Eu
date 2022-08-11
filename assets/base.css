@@ -2918,7 +2918,6 @@ details-disclosure > details {
 /* Additional Styling Code - Alvin */
 
 .button {
- border: 1px solid #cccccc !important;
 }
 
 .button:hover {
@@ -2926,6 +2925,9 @@ details-disclosure > details {
       color: #FFFFFF;
       transition: 0.7s;
       border-width:1px;
-
+      border-top-width: 0px;
+      border-right-width: 0px;
+      border-bottom-width: 0px;
+      border-left-width: 0px;
   }
 
