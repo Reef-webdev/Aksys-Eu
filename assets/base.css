@@ -2915,3 +2915,11 @@ details-disclosure > details {
   font-weight: var(--font-body-weight-bold);
 }
 
+/* Additional Styling Code - Alvin */
+
+.button:hover {
+      background-color:#3271b7;
+      color: #FFFFFF;
+      transition: 0.7s;
+  }
+
