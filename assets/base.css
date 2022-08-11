@@ -2918,7 +2918,7 @@ details-disclosure > details {
 /* Additional Styling Code - Alvin */
 
 .button {
- border: 4px solid #cccccc !important;
+ border: 1px solid #cccccc !important;
 }
 
 .button:hover {
