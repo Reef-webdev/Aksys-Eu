@@ -2925,5 +2925,10 @@ details-disclosure > details {
       background-color:#3271b7;
       color: #FFFFFF;
       transition: 0.7s;
+      border-width:1px;
+      border-top-width: 0px;
+      border-right-width: 0px;
+      border-bottom-width: 0px;
+      border-left-width: 0px;
   }
 
