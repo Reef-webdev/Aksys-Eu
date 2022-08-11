@@ -497,55 +497,6 @@
         "padding_top": 12,
         "padding_bottom": 84
       }
-    },
-    "16602258941c5854b0": {
-      "type": "image-banner",
-      "blocks": {
-        "1660225894c052006c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "1660225894c052006c-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "1660225894c052006c-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "shopify:\/\/products\/death-mark-limited-edition-12-vinyl-original-soundtrack",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "shopify:\/\/pages\/returns",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1660225894c052006c-0",
-        "1660225894c052006c-1",
-        "1660225894c052006c-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/AKSYS_WINTERS_WISH_BANNER_2048x_a174825d-8fc2-49b4-a276-86652d0a907a.webp",
-        "image_2": "shopify:\/\/shop_images\/AKSYS_OLY_BANNER_96b09186-c36c-4f72-9cbc-746b0b7750eb_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -561,7 +512,6 @@
     "image-with-text-2",
     "16593628283412789d",
     "1659362742112c76c9",
-    "newslettter",
-    "16602258941c5854b0"
+    "newslettter"
   ]
 }
