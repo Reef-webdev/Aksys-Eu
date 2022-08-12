@@ -2948,3 +2948,22 @@ details-disclosure > details {
 
   }
 
+.newsletter__subheading {
+      color: #FFFFFF;
+}
+
+.field__input, .customer .field input {
+      background-color:#FFFFFF;
+}
+
+
+.newsletter-form__field-wrapper {
+      text-align: center;  
+}
+
+.newsletter-form__message {
+      color: #FFFFFF;
+      display: block;
+
+}
+
