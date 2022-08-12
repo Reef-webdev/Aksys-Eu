@@ -2958,6 +2958,9 @@ details-disclosure > details {
       text-align: center;  
 }
 
+.newsletter-form {
+      background-color: #FFFFFF;
+  
 .newsletter-form__message {
       color: #FFFFFF;
 
