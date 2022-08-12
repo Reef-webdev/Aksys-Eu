@@ -2953,6 +2953,9 @@ details-disclosure > details {
       background-color:#FFFFFF;
 }
 
+#field__input {
+      background-color:#FFFFFF!important;  
+}
 
 .newsletter-form__field-wrapper {
       text-align: center;  
