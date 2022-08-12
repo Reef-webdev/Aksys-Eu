@@ -2944,5 +2944,8 @@ details-disclosure > details {
 .newsletter__subheading {
       color: #FFFFFF;
 }
+
+.field__input, .customer .field input {
+      background-color:#3271b7;
 }
 
