@@ -220,7 +220,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/LOGO.png",
-          "logo_width": 610,
+          "logo_width": 380,
           "logo_position": "top-center",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
