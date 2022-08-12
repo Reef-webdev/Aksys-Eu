@@ -2950,7 +2950,7 @@ details-disclosure > details {
   
 
 .field__input, .customer .field input {
-      background-color:#FFFFFF;
+      background-color:#FFFFFF!important;
 }
 
 input[type="text"], textarea {
