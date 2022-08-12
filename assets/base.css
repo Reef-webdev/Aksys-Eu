@@ -2646,7 +2646,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item:hover span {
-  color: #646464;
+  color: #8b8b8b;
   /*text-decoration: underline;
   text-underline-offset: 0.3rem;*/
 }
