@@ -2930,6 +2930,12 @@ details-disclosure > details {
 
 /* Additional Styling Code - Alvin */
 
+a {
+  text-decoration:none!important;
+  border: none!important;
+  box-shadow: none!important;
+}
+
 .button {
 }
 
@@ -2969,10 +2975,6 @@ details-disclosure > details {
 
 }
 
-a {
-  text-decoration:none!important;
-  border: none!important;
-  box-shadow: none!important;
 }
   
 }
