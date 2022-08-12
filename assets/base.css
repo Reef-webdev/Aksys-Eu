@@ -2953,10 +2953,10 @@ details-disclosure > details {
       background-color:#FFFFFF!important;
 }
 
-input[type="text"], textarea {
-
-  background-color : #FFFFFF; }
-  
+.color-background-2 {
+      background-color:#FFFFFF!important;
+}
+   
 .newsletter-form__field-wrapper {
       text-align: center;  
 }
