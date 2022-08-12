@@ -296,7 +296,7 @@
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
               </modal-opener>
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
-{% comment %}         {%- when 'share' -%}
+         {%- when 'share' -%}
             <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">
                 {% render 'icon-share' %}
@@ -333,57 +333,7 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
-            
-{% endcomment%}
-
-             
-                                            {% capture share_link %}{{ shop.url }}{{ product.url }}{% endcapture %}
-                                            {% capture share_title %}{{ product.title | url_param_escape }}{% endcapture %}
-                                            {% capture share_img %}{{ product.featured_image | product_img_url: '1024x1024' }}{% endcapture %}
-                                            <div class="product-single__share">
-                                                <ul class="product-single__share-items o-list-bare">
-                                                    
-                                                    <li class="product-single__share-item">
-                                                        <a href="//www.facebook.com/sharer.php?u={{ share_link }}" class="product-single__share-link icon-fallback" target="_blank">
-                                                            <i class="icon icon--facebook" aria-hidden="true"></i>
-                                                            <span class="icon-fallback__text">Facebook</span>
-                                                        </a>
-                                                    </li>
-                                                    
-                                                    
-                                                    <li class="product-single__share-item">
-                                                        <a href="//twitter.com/share?text={{ share_title }}&amp;url={{ share_link }}" class="product-single__share-link icon-fallback" target="_blank">
-                                                            <i class="icon icon--twitter" aria-hidden="true"></i>
-                                                            <span class="icon-fallback__text">Twitter</span>
-                                                        </a>
-                                                    </li>
-                                                    
-                                                    
-                                                    <li class="product-single__share-item">
-                                                        <a href="http://pinterest.com/pin/create/button/?url={{ share_link }}&amp;media={{ share_img }}&amp;description={{ share_title }}" class="product-single__share-link icon-fallback" target="_blank">
-                                                            <i class="icon icon--pinterest" aria-hidden="true"></i>
-                                                            <span class="icon-fallback__text">Pinterest</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="product-single__share-item">
-                                                        <a href="//www.thefancy.com/fancyit?ItemURL={{ share_link }}&Title={{ share_title }}&ImageURL={{ share_img }}" class="product-single__share-link icon-fallback" target="_blank">
-                                                            <i class="icon icon--fancy" aria-hidden="true"></i>
-                                                            <span class="icon-fallback__text">Fancy</span>
-                                                        </a>
-                                                    </li>
-                                                    
-                                                    
-                                                    <li class="product-single__share-item">
-                                                        <a href="mailto:?body={{ share_title }} - {{ share_link }}" class="product-single__share-link icon-fallback">
-                                                            <i class="icon icon--mail" aria-hidden="true"></i>
-                                                            <span class="icon-fallback__text">Email</span>
-                                                        </a>
-                                                    </li>
-                                                    
-                                                </ul>
-                                            </div>
-                                        
-                                    </div>
+    
 
             
           {%- when 'variant_picker' -%}
