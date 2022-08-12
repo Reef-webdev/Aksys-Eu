@@ -2177,7 +2177,7 @@ input[type='checkbox'] {
   background-repeat: no-repeat;
 } */
 
-/* .card__media:before{
+.card__media:before{
   content: '';
   position: absolute;
   background-image: url(onsale.png);
@@ -2188,7 +2188,7 @@ input[type='checkbox'] {
   order: 1;
    opacity: .6;
   z-index: 999;
-} */
+}
 .announcement-bar__link {
   display: block;
   width: 100%;
