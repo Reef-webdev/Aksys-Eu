@@ -219,8 +219,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "accent-1",
-          "logo": "shopify:\/\/shop_images\/LOGO.png",
-          "logo_width": 380,
+          "logo": "shopify:\/\/shop_images\/aksys_logo.png",
+          "logo_width": 410,
           "logo_position": "top-center",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
