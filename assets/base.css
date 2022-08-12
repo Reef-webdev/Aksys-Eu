@@ -2949,8 +2949,13 @@ details-disclosure > details {
       background-color:#FFFFFF;
 }
 
+
+.newsletter-form__field-wrapper {
+      text-align: center;  
+}
+
 .newsletter-form__message {
       color: #FFFFFF;
-      text-align: center;
+
 }
 
