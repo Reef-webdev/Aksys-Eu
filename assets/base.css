@@ -815,6 +815,13 @@ summary::-webkit-details-marker {
     0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 
+.sale::before{
+  content: 'HI WHATSUP';
+  z-index: 999999;
+  background-repeat: repeat-x;
+}
+
+
 /* Negate the fallback side-effect for browsers that support :focus-visible */
 .no-js *:focus:not(:focus-visible) {
   outline: 0;

@@ -74,7 +74,7 @@
                                         {% when 'image' %}
                                             <div class="product-single__photo__item product-single__photo__item--image" data-slide-id="{{ forloop.index0 }}" data-media-id="{{ media.id }}">
                                                 {%- assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                                                <img class="product-single__photo__img js-pswp-img lazyload js"
+                                                <img class="sale product-single__photo__img js-pswp-img lazyload js"
                                                     src="{{ media | img_url: '300x' }}" 
                                                     data-pswp-src="{{ media | img_url: 'master' }}"
                                                     data-pswp-height="{{ media.height }}"
@@ -86,7 +86,7 @@
                                                     data-ratio="{{ media.aspect_ratio }}"
                                                     alt="{{ media.alt | escape }}">
                                                 <noscript>
-                                                    <img class="product-single__photo__img"
+                                                    <img class="sale product-single__photo__img"
                                                         src="{{ media.src | img_url: '900x' }}"
                                                         alt="{{ media.alt | escape }}">
                                                 </noscript>
@@ -323,14 +323,14 @@
                                         {% if section.settings.image != blank %}
                                             <div class="product-single__img">
                                                 {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                                                <img class="product-single__img__img lazyload js"
+                                                <img class=" sale product-single__img__img lazyload js"
                                                     src="{{ section.settings.image | img_url: '300x' }}" 
                                                     data-src="{{ img_url }}"
                                                     data-widths="[180, 360, 540, 720, 900]"
                                                     data-sizes="auto"
                                                     alt="{{ section.settings.image.alt }}">
                                                 <noscript>
-                                                    <img class="product-single__img__img"
+                                                    <img class="sale product-single__img__img"
                                                         src="{{ section.settings.image | img_url: '720x' }}"
                                                         alt="{{ section.settings.image.alt }}">
                                                 </noscript>
