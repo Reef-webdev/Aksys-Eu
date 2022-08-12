@@ -296,7 +296,7 @@
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
               </modal-opener>
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
-<!--           {%- when 'share' -%}
+{% comment %}         {%- when 'share' -%}
             <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">
                 {% render 'icon-share' %}
@@ -332,7 +332,8 @@
                 </div>
               </details>
             </share-button>
-            <script src="{{ 'share.js' | asset_url }}" defer="defer"></script> -->
+            <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+{% endcomment%}
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
