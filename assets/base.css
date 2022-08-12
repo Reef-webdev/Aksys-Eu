@@ -2953,7 +2953,7 @@ details-disclosure > details {
       background-color:#FFFFFF;
 }
 
-#field__input {
+.field__input {
       background-color:#FFFFFF!important;  
 }
 
@@ -2965,7 +2965,7 @@ details-disclosure > details {
       background-color: #FFFFFF;
   
 .newsletter-form__message {
-      color: #FFFFFF;
+      color: #FFFFFF!important;
 
 }
 
