@@ -2969,4 +2969,8 @@ details-disclosure > details {
 
 }
 
+a {
+  text-decoration:none!important;
+}
+  
 }
