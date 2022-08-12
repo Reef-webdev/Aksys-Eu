@@ -2177,10 +2177,10 @@ input[type='checkbox'] {
   background-repeat: no-repeat;
 } */
 
-.card__media:before{
+/* .card__media:before{
   content: '';
   position: absolute;
-  background-image: url(onsale.png);
+  background-image: url(preorder.jpg);
   background-size:100px ;
   background-repeat:repeat-x,repeat-y;
   width: 100%;
@@ -2188,7 +2188,7 @@ input[type='checkbox'] {
   order: 1;
    opacity: .6;
   z-index: 999;
-}
+} */
 .announcement-bar__link {
   display: block;
   width: 100%;
@@ -2946,7 +2946,7 @@ details-disclosure > details {
 }
 
 .newsletter__subheading p {
-      font-size: 30px;
+      font-size: 20px;
   
 
 .field__input, .customer .field input {
