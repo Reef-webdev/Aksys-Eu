@@ -336,7 +336,7 @@
             
 {% endcomment%}
 
-             {% if section.settings.show_share_buttons %}
+             
                                             {% capture share_link %}{{ shop.url }}{{ product.url }}{% endcapture %}
                                             {% capture share_title %}{{ product.title | url_param_escape }}{% endcapture %}
                                             {% capture share_img %}{{ product.featured_image | product_img_url: '1024x1024' }}{% endcapture %}
@@ -384,7 +384,7 @@
                                                     {% endif %}
                                                 </ul>
                                             </div>
-                                        {% endif %}
+                                        
                                     </div>
 
             
