@@ -312,7 +312,7 @@
   margin-top: 1rem;
 }
 
-.card__media:before{
+.card__media{
   content: '';
   object-position:left top;
   position: absolute;
