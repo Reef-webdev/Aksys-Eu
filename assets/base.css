@@ -2968,7 +2968,7 @@ a {
 
 }
 
-  .card_media:before{
+  .card:before{
   content: 'ONSALEONSALEONSALEONSALE';
   position: absolute;
   background-image: url(preorder.jpg);
