@@ -2,10 +2,10 @@
   "sections": {
     "165943868601418460": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1659438686b6c7781b-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "<p>TEST<\/p>",
             "heading_size": "h1"
@@ -13,14 +13,12 @@
         },
         "1659438686b6c7781b-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>TEST Limited Edition Products<\/p>"
           }
         },
         "1659438686b6c7781b-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -75,6 +73,7 @@
     },
     "1660565856741fa9a1": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
