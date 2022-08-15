@@ -2921,7 +2921,7 @@ details-disclosure > details {
 
 
 /* ASHISH-CODE */
-.card__media__sale:before{
+/* .card__media:before{
   content: 'TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST';
   position: absolute;
   background-image: url(preorder.jpg);
@@ -2932,7 +2932,7 @@ details-disclosure > details {
   order: 1;
    opacity: .6;
   z-index: 999;
-}
+} */
 
 
 
