@@ -331,6 +331,7 @@
 .card__media:after{
   content:'';
   background-image:url(onsale.png)
+  z-index:999
   
 }
 
