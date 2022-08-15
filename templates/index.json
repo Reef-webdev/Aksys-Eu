@@ -598,7 +598,7 @@
     "1660561924a660b0e9": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Featured collection-custom",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -623,7 +623,7 @@
       }
     },
     "1660577628980e6826": {
-      "type": "featured-collection-custom",
+      "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
