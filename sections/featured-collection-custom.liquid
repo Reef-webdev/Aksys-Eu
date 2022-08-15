@@ -1,3 +1,13 @@
+
+{% stylesheet %}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{% endstylesheet %}
+
+
+
+
+
 {% schema %}
 {
   "name": "t:sections.featured-collection.name",
@@ -258,9 +268,3 @@
   ]
 }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
