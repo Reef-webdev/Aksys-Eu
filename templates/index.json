@@ -112,7 +112,7 @@
       }
     },
     "featured-collection": {
-      "type": "featured-collection-custom",
+      "type": "featured-collection",
       "disabled": true,
       "settings": {
         "title": "",
