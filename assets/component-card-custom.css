@@ -315,6 +315,7 @@
 .card__media:before{
   content: '';
   object-position:left top;
+  object-fit:none;
   position: absolute;
   background-image: url(onsale.png);
   background-size:300px ;
