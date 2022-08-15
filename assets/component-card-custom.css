@@ -140,7 +140,7 @@
 .card__media .media img {
   height: 100%;
   object-fit: cover;
-/*   object-position: center center; */
+  object-position: center center;
   width: 100%;
 }
 
@@ -318,7 +318,7 @@
   background-image: url(onsale.png);
   background-size:300px ;
   background-repeat:no-repeat;
-  background-position: 0% 0%;
+  background-position: -50% -50%;
   width: 300%;
   height: 300%;
   order: 1;
