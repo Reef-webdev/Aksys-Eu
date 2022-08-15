@@ -2968,7 +2968,7 @@ a {
 
 }
 
- .contains-card:before .card:before{
+ .card:before{
   content: 'ONSALEONSALEONSALEONSALE';
   position: absolute;
   background-image: url(preorder.jpg);
