@@ -312,7 +312,7 @@
   margin-top: 1rem;
 }
 
-.card__media:before{
+.card__media:after{
   content:'sale';
   object-position:left top;
   object-fit:none;
@@ -327,3 +327,6 @@
    opacity: 1;
   z-index: 999;
 }
+
+
+
