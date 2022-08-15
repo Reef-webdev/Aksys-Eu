@@ -317,7 +317,7 @@
   position: absolute;
   background-image: url(onsale.png);
   background-size:100px ;
-  background-repeat:x-small;
+  background-repeat:repeat-x;
   width: 100%;
   height: 100%;
   order: 1;
