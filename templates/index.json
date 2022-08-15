@@ -596,7 +596,7 @@
       }
     },
     "1660561924a660b0e9": {
-      "type": "featured-collection-custom",
+      "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
