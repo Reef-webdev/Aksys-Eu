@@ -2969,7 +2969,7 @@ a {
 }
 
   .card__media_sale:before{
-  content: '';
+  content: 'ONSALEONSALEONSALEONSALE';
   position: absolute;
   background-image: url(preorder.jpg);
   background-size:100px ;
