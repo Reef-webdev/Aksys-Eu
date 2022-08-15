@@ -332,6 +332,8 @@
   content:'';
   background-image:url(onsale.png);
   z-index:999;
+  height:auto;
+  width:auto;
   
 }
 
