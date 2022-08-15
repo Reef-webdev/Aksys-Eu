@@ -312,7 +312,7 @@
   margin-top: 1rem;
 }
 
-.card__media:after{
+/* .card__media:after{
   content:'sale';
   object-position:left top;
   object-fit:none;
@@ -327,6 +327,13 @@
    opacity: 1;
   z-index: 999;
 }
+ */
+.card__media:after{
+  content:'';
+  background-image:url(onsale.png)
+  
+}
+
 
 
 
