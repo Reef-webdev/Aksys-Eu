@@ -328,7 +328,7 @@
   z-index: 999;
 }
  */
-.card__media:after{
+.card__media:before{
   content:'';
   background-image:url(onsale.png)
   z-index:999
