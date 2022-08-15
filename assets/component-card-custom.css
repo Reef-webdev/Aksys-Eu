@@ -313,7 +313,6 @@
 }
 
 .card__media:before{
-  content: '';
   object-position:left top;
   object-fit:none;
   position: absolute;
