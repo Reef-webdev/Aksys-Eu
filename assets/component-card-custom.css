@@ -314,6 +314,7 @@
 
 .card__media:before{
   content: '';
+  align:left;
   position: absolute;
   background-image: url(onsale.png);
   background-size:700px ;
