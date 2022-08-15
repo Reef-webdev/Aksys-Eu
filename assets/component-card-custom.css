@@ -330,8 +330,8 @@
  */
 .card__media:before{
   content:'';
-  background-image:url(onsale.png)
-  z-index:999
+  background-image:url(onsale.png);
+  z-index:999;
   
 }
 
