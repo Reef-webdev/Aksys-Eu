@@ -2919,6 +2919,23 @@ details-disclosure > details {
   font-weight: var(--font-body-weight-bold);
 }
 
+
+/* ASHISH-CODE */
+.card__media:before{
+  content: 'TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST';
+  position: absolute;
+  background-image: url(preorder.jpg);
+  background-size:100px ;
+  background-repeat:repeat-x,repeat-y;
+  width: 100%;
+  height: 100%;
+  order: 1;
+   opacity: .6;
+  z-index: 999;
+}
+
+
+
 /* Additional Styling Code - Alvin */
 
 a {
@@ -2967,17 +2984,6 @@ a {
 }
 
 }
-
- .card__media:before{
-  content: 'TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST';
-  position: absolute;
-  background-image: url(preorder.jpg);
-  background-size:100px ;
-  background-repeat:repeat-x,repeat-y;
-  width: 100%;
-  height: 100%;
-  order: 1;
-   opacity: .6;
-  z-index: 999;
+ 
   
 }
