@@ -318,7 +318,7 @@
   background-image: url(onsale.png);
   background-size:300px ;
 /*   background-repeat:repeat-x; */
-  background-position: left-top;
+  background-position: 0% 0%;
   width: 300%;
   height: 300%;
   order: 1;
