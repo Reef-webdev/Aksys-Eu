@@ -2921,7 +2921,7 @@ details-disclosure > details {
 
 
 /* ASHISH-CODE */
-.card__media:before{
+.card__media__sale:before{
   content: 'TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST';
   position: absolute;
   background-image: url(preorder.jpg);
