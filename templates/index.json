@@ -135,7 +135,7 @@
       }
     },
     "featured-collection-1": {
-      "type": "featured-collection-custom",
+      "type": "featured-collection",
       "settings": {
         "title": "",
         "heading_size": "h1",
