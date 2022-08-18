@@ -4,9 +4,9 @@
 {%- if section.settings.enable_on_sale -%}
 {{ 'component-card-custom.css' | asset_url | stylesheet_tag }}
 {%- else -%}
-{{'component-card.css' | asset_url | stylesheet_tag  }}
+<!-- {{'component-card.css' | asset_url | stylesheet_tag  }}
   {%- endif -%}}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }} -->
 
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
