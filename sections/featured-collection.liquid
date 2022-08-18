@@ -24,7 +24,9 @@
     }
   }
 {%- endstyle -%}
-
+{%- if section.settings.enable_on_sale %}
+<h1>HI WHATSUP</h1>
+  {%- endif -%}
 {%- liquid
   assign products_to_display = section.settings.collection.all_products_count
 
