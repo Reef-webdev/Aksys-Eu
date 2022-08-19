@@ -202,8 +202,8 @@
 }
 
 .multicolumn-card:hover{
-/*   opacity:1; */
-  transition:ease-out;
+  opacity:1;
+/*   transition:ease-out; */
 }
 
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
