@@ -554,6 +554,48 @@ blog-link {
 			}
 		}
 	}
-
+@include mq-max($desk) {
+    .article--no-date {
+        .blog__title {
+            margin-top: 0;
+        }
+    }
+  	.blog__img,
+	.collection-list__bg,
+	.home-image-grid__bg,
+	.home-carousel--image_img {
+		@include transition(transform 10s ease-out, opacity .5s ease-in);//opacity for img-lazyload addition
+	}
+	.blog,
+	.collection-list__item,
+	.home-image-grid__link,
+	.home-carousel--image_link {
+		&:hover {
+			.blog__img,
+			.collection-list__bg,
+			.home-image-grid__bg,
+			.home-carousel--image_img {
+				@include transform(scale(1.2));
+			}
+		}
+	}
+  .section--no-bg {
+	.blog__details {
+		border-color: $color--grey-lighter;
+	}
+}
+  .section--blog,
+.section--article.article--no-img,
+.section--page,
+.section--search,
+.section--list-collections,
+.section--cart,
+.section--404,
+.section--account {
+    margin-top: 30px;
+    @include mq-max($tab) {
+    	margin-top: 12px;
+    }
+}
   
 </style>
