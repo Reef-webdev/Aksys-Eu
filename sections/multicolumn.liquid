@@ -67,7 +67,7 @@
                     {% if section.settings.image_ratio == 'adapt' %}
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}>
-             <a class="full-link" href="{{block.settings.link}}" target="_blank"></a>
+             <a class="full-link" href="{{block.settings.link}}"></a>
                     <img
                       class="multicolumn-card__image"
                       srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | image_url: width: 275 }} 275w,{%- endif -%}
