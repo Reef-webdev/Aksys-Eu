@@ -2998,13 +2998,8 @@ button.shopify-payment-button__button--unbranded:hover {
 .shopify-payment-button__button--unbranded:hover,
 .shopify-payment-button [role="button"]:hover,
 .cart__dynamic-checkout-buttons [role='button']:hover {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  border-radius: var(--buttons-radius-outset);
-  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
+   background-color:  #FFFFFF;
+      color: #3271b7;
+      transition: 0.7s;
+      border-width:1px solid #000000;
 }
