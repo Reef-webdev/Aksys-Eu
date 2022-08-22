@@ -160,6 +160,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "link-list": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Shop",
+              "menu": "footer"
+            }
+          },
           "link-list-1": {
             "type": "link_list",
             "disabled": true,
@@ -180,13 +187,6 @@
             "settings": {
               "heading": "Twitter",
               "subtext": "<p>AKSYS WEEKLY OFFER !<\/p><p><\/p><p>Horgihugh and Friends - Standard Edition for Switch is ON SALE NOW on the Aksys EU Online Store!<\/p><p><\/p><p>Hugh and Figaro are the world’s last wings of hope in this 16-bit shmup throwback!<\/p><p><\/p><p>Ends 07\/08\/22LINK: (<a href=\"https:\/\/t.co\/XlC9ewYS3T\" target=\"_blank\" title=\"http:\/\/bit.ly\/haf_se\">bit.ly\/haf_se<\/a>)<a href=\"https:\/\/twitter.com\/@aksyseustore\" target=\"_blank\">@aksyseustore<\/a><\/p>"
-            }
-          },
-          "link-list": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Shop",
-              "menu": "footer"
             }
           }
         },
@@ -251,7 +251,7 @@
     "blocks": {
       "3294164036280357830": {
         "type": "shopify:\/\/apps\/mlv-auto-currency-switcher\/blocks\/mlveda-currencies-head\/92ab730f-097e-4571-b27c-3f449e098ca3",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
