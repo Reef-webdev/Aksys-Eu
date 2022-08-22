@@ -2985,8 +2985,8 @@ a {
 }
 
 button.shopify-payment-button__button:hover {
-      background-color:#3271b7;
-      color: #FFFFFF;
+      background-color:  #FFFFFF;
+      color: #3271b7;
       transition: 0.7s;
       border-width:1px solid #000000;
 
