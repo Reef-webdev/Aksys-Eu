@@ -76,15 +76,16 @@
       "blocks": {
         "1661165655f01a5b26-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "1661165655f01a5b26-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>SUBSCRIBE NOW FOR ALL THE AKSYS UPDATES<\/p>"
           }
         },
         "1661165655f01a5b26-2": {
