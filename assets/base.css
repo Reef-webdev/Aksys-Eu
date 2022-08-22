@@ -2984,7 +2984,7 @@ a {
 
 }
 
-button.shopify-payment-button__button--unbranded:hover {
+button.shopify-payment-button__button--unbranded:before {
       background-color:  #FFFFFF;
       color: #3271b7;
       transition: 0.7s;
