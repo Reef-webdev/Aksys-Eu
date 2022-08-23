@@ -1,261 +1,261 @@
 {
   "current": {
-    "colors_solid_button_labels": "#000000",
-    "colors_accent_1": "#ffffff",
-    "gradient_accent_1": "",
-    "colors_accent_2": "#000000",
-    "gradient_accent_2": "",
-    "colors_text": "#000000",
-    "colors_outline_button_labels": "#aaaaaa",
-    "colors_background_1": "#fcfcfc",
-    "gradient_background_1": "",
-    "colors_background_2": "#232f3d",
-    "gradient_background_2": "",
-    "type_header_font": "work_sans_n7",
-    "heading_scale": 100,
-    "type_body_font": "work_sans_n6",
-    "body_scale": 100,
-    "page_width": 1600,
-    "spacing_sections": 0,
-    "spacing_grid_horizontal": 40,
-    "spacing_grid_vertical": 40,
-    "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
-    "buttons_shadow_opacity": 5,
-    "buttons_shadow_horizontal_offset": 2,
     "buttons_shadow_vertical_offset": 2,
-    "buttons_shadow_blur": 5,
-    "variant_pills_border_thickness": 1,
-    "variant_pills_border_opacity": 55,
-    "variant_pills_radius": 40,
-    "variant_pills_shadow_opacity": 0,
-    "variant_pills_shadow_horizontal_offset": 0,
-    "variant_pills_shadow_vertical_offset": 0,
-    "variant_pills_shadow_blur": 0,
-    "inputs_border_thickness": 1,
     "inputs_border_opacity": 15,
-    "inputs_radius": 2,
-    "inputs_shadow_opacity": 5,
-    "inputs_shadow_horizontal_offset": 2,
-    "inputs_shadow_vertical_offset": 2,
-    "inputs_shadow_blur": 5,
-    "card_style": "standard",
-    "card_image_padding": 0,
-    "card_text_alignment": "center",
-    "card_color_scheme": "background-1",
-    "card_border_thickness": 0,
-    "card_border_opacity": 0,
-    "card_corner_radius": 0,
-    "card_shadow_opacity": 10,
-    "card_shadow_horizontal_offset": 0,
-    "card_shadow_vertical_offset": 0,
-    "card_shadow_blur": 0,
-    "text_boxes_border_thickness": 0,
-    "text_boxes_border_opacity": 0,
-    "text_boxes_radius": 0,
-    "text_boxes_shadow_opacity": 0,
-    "text_boxes_shadow_horizontal_offset": 0,
-    "text_boxes_shadow_vertical_offset": 0,
-    "text_boxes_shadow_blur": 0,
-    "media_border_thickness": 0,
-    "media_border_opacity": 5,
-    "media_radius": 0,
-    "media_shadow_opacity": 0,
-    "media_shadow_horizontal_offset": 0,
-    "media_shadow_vertical_offset": 0,
-    "media_shadow_blur": 0,
-    "popup_border_thickness": 0,
-    "popup_border_opacity": 10,
-    "popup_corner_radius": 0,
-    "popup_shadow_opacity": 10,
-    "popup_shadow_horizontal_offset": 6,
-    "popup_shadow_vertical_offset": 6,
-    "popup_shadow_blur": 25,
-    "drawer_border_thickness": 1,
-    "drawer_border_opacity": 10,
-    "drawer_shadow_opacity": 0,
     "drawer_shadow_horizontal_offset": 0,
-    "drawer_shadow_vertical_offset": 0,
-    "drawer_shadow_blur": 0,
-    "badge_position": "bottom left",
-    "badge_corner_radius": 40,
-    "sale_badge_color_scheme": "accent-2",
-    "sold_out_badge_color_scheme": "inverse",
-    "accent_icons": "text",
-    "social_twitter_link": "https:\/\/twitter.com\/aksyseustore",
-    "social_facebook_link": "",
-    "social_pinterest_link": "",
-    "social_instagram_link": "",
-    "social_tiktok_link": "",
-    "social_tumblr_link": "",
-    "social_snapchat_link": "",
     "social_youtube_link": "",
-    "social_vimeo_link": "",
-    "predictive_search_enabled": true,
-    "predictive_search_show_vendor": false,
-    "predictive_search_show_price": false,
-    "currency_code_enabled": true,
-    "cart_type": "page",
-    "show_vendor": false,
-    "show_cart_note": false,
-    "cart_drawer_collection": "",
+    "colors_background_2": "#232f3d",
+    "media_shadow_opacity": 0,
+    "variant_pills_border_thickness": 1,
     "mlvedaACS_autoSwitch": true,
+    "text_boxes_radius": 0,
+    "colors_background_1": "#fcfcfc",
+    "variant_pills_shadow_opacity": 0,
+    "card_border_thickness": 0,
+    "predictive_search_enabled": true,
+    "popup_shadow_horizontal_offset": 6,
+    "inputs_shadow_blur": 5,
     "mlvedaACS_isCustomized": true,
+    "accent_icons": "text",
+    "media_shadow_horizontal_offset": 0,
+    "buttons_shadow_horizontal_offset": 2,
+    "buttons_border_thickness": 1,
+    "inputs_border_thickness": 1,
+    "predictive_search_show_price": false,
     "mlvedaACS_borderLook": false,
+    "media_radius": 0,
+    "popup_border_thickness": 0,
+    "drawer_shadow_opacity": 0,
+    "type_header_font": "work_sans_n7",
+    "drawer_border_opacity": 10,
+    "currency_code_enabled": true,
+    "social_tiktok_link": "",
+    "sold_out_badge_color_scheme": "inverse",
+    "text_boxes_border_thickness": 0,
+    "cart_type": "page",
+    "type_body_font": "work_sans_n6",
+    "popup_shadow_opacity": 10,
+    "page_width": 1600,
     "mlvedaACS_textColor": "inherit",
     "mlvedaACS_flagStyle": "circle",
+    "card_corner_radius": 0,
+    "social_pinterest_link": "",
     "mlvedaACS_isMessageDisplay": true,
+    "sale_badge_color_scheme": "accent-2",
+    "card_shadow_blur": 0,
+    "body_scale": 100,
     "mlvedaACS_messageColor": "inherit",
+    "text_boxes_shadow_blur": 0,
+    "inputs_shadow_vertical_offset": 2,
+    "colors_text": "#000000",
+    "badge_corner_radius": 40,
+    "spacing_sections": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "social_vimeo_link": "",
+    "buttons_shadow_opacity": 5,
+    "colors_accent_1": "#ffffff",
+    "heading_scale": 100,
+    "colors_accent_2": "#000000",
+    "colors_solid_button_labels": "#000000",
+    "media_shadow_vertical_offset": 0,
+    "text_boxes_shadow_opacity": 0,
     "mlvedaACS_roundDecimal": true,
+    "colors_outline_button_labels": "#aaaaaa",
+    "card_shadow_vertical_offset": 0,
+    "drawer_shadow_vertical_offset": 0,
+    "spacing_grid_vertical": 40,
+    "gradient_background_2": "",
+    "card_text_alignment": "center",
+    "gradient_background_1": "",
+    "variant_pills_border_opacity": 55,
     "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "social_instagram_link": "",
+    "inputs_shadow_opacity": 5,
+    "popup_corner_radius": 0,
+    "buttons_shadow_blur": 5,
+    "card_shadow_opacity": 10,
     "mlvedaACS_os2": false,
+    "badge_position": "bottom left",
     "mlvedaACS_positionTop": "10px",
-    "mlvedaACS_positionRight": "25px",
-    "mlvedaACS_positionLeft": "10px",
-    "mlvedaACS_defaultCurrency": "EUR",
-    "mlvedaACS_positionBottom": "10px",
-    "mlvedaACS_messageBackgroundColor": "inherit",
-    "mlvedaACS_roundDecimalValue": 1,
-    "mlvedaACS_backgroundColor": "inherit",
-    "mlvedaACS_position": "inline",
-    "mlvedaACS_textHoverColor": "inherit",
-    "mlvedaACS_enable": true,
-    "mlvedaACS_supportedCurrencies": "EUR BGN HRK CZK DKK HUF PLN RON SEK CHF TRY",
-    "mlvedaACS_hideDecimal": false,
-    "mlvedaACS_hoverBackgroundColor": "inherit",
-    "mlvedaACS_currencyFormat": "money_with_currency_format",
-    "mlvedaACS_borderLineColor": "inherit",
-    "mlvedaACS_displayFlag": true,
+    "media_shadow_blur": 0,
+    "media_border_opacity": 5,
     "sections": {
       "announcement-bar": {
-        "type": "announcement-bar",
+        "settings": {
+        },
         "blocks": {
           "announcement-bar-0": {
-            "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
+              "link": "",
               "color_scheme": "background-2",
-              "link": ""
-            }
+              "text": "Welcome to our store"
+            },
+            "disabled": true,
+            "type": "announcement"
           },
           "fdf93c9d-dc53-42f7-81ed-bc5fdfb70c9c": {
-            "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "For EU customers Click here",
+              "link": "https:\/\/aksyseurope-eu.myshopify.com\/",
               "color_scheme": "background-1",
-              "link": "https:\/\/aksyseurope-eu.myshopify.com\/"
-            }
+              "text": "For EU customers Click here"
+            },
+            "disabled": true,
+            "type": "announcement"
           }
         },
+        "type": "announcement-bar",
         "block_order": [
           "announcement-bar-0",
           "fdf93c9d-dc53-42f7-81ed-bc5fdfb70c9c"
-        ],
-        "settings": {
-        }
+        ]
       },
       "footer": {
-        "type": "footer",
+        "settings": {
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
+          "enable_country_selector": false,
+          "margin_top": 0,
+          "padding_top": 52,
+          "color_scheme": "inverse",
+          "padding_bottom": 0,
+          "show_social": false,
+          "enable_language_selector": false,
+          "payment_enable": true
+        },
         "blocks": {
-          "link-list": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Shop",
-              "menu": "footer"
-            }
-          },
           "link-list-1": {
-            "type": "link_list",
-            "disabled": true,
             "settings": {
               "heading": "Info",
               "menu": "footer"
-            }
+            },
+            "disabled": true,
+            "type": "link_list"
           },
           "fc2e1d47-5d32-4bc3-a0a4-3fd2caa5f920": {
-            "type": "text",
             "settings": {
-              "heading": "Contact Us",
-              "subtext": "<p><a href=\"mailto:support@aksyseurope.com\">support@aksyseurope.com<\/a><\/p><p><a href=\"tel:+44(0)2086643485\">+44(0)2086643485<\/a><\/p><p>BÉCSI ÚT 30, Reef Entertainment Kft t\\a Aksys Europe Online Store<br\/>PILISJÁSZFALU<br\/>2080 Hungary<\/p>"
-            }
+              "subtext": "<p><a href=\"mailto:support@aksyseurope.com\">support@aksyseurope.com<\/a><\/p><p><a href=\"tel:+44(0)2086643485\">+44(0)2086643485<\/a><\/p><p>BÉCSI ÚT 30, Reef Entertainment Kft t\\a Aksys Europe Online Store<br\/>PILISJÁSZFALU<br\/>2080 Hungary<\/p>",
+              "heading": "Contact Us"
+            },
+            "type": "text"
           },
           "b7d9cd08-2a6a-4553-82cf-3e133ff05887": {
-            "type": "text",
             "settings": {
-              "heading": "Twitter",
-              "subtext": "<p>AKSYS WEEKLY OFFER !<\/p><p><\/p><p>Horgihugh and Friends - Standard Edition for Switch is ON SALE NOW on the Aksys EU Online Store!<\/p><p><\/p><p>Hugh and Figaro are the world’s last wings of hope in this 16-bit shmup throwback!<\/p><p><\/p><p>Ends 07\/08\/22LINK: (<a href=\"https:\/\/t.co\/XlC9ewYS3T\" target=\"_blank\" title=\"http:\/\/bit.ly\/haf_se\">bit.ly\/haf_se<\/a>)<a href=\"https:\/\/twitter.com\/@aksyseustore\" target=\"_blank\">@aksyseustore<\/a><\/p>"
-            }
+              "subtext": "<p>AKSYS WEEKLY OFFER !<\/p><p><\/p><p>Horgihugh and Friends - Standard Edition for Switch is ON SALE NOW on the Aksys EU Online Store!<\/p><p><\/p><p>Hugh and Figaro are the world’s last wings of hope in this 16-bit shmup throwback!<\/p><p><\/p><p>Ends 07\/08\/22LINK: (<a href=\"https:\/\/t.co\/XlC9ewYS3T\" target=\"_blank\" title=\"http:\/\/bit.ly\/haf_se\">bit.ly\/haf_se<\/a>)<a href=\"https:\/\/twitter.com\/@aksyseustore\" target=\"_blank\">@aksyseustore<\/a><\/p>",
+              "heading": "Twitter"
+            },
+            "type": "text"
+          },
+          "link-list": {
+            "settings": {
+              "heading": "Shop",
+              "menu": "footer"
+            },
+            "type": "link_list"
           }
         },
+        "type": "footer",
         "block_order": [
           "link-list",
           "link-list-1",
           "fc2e1d47-5d32-4bc3-a0a4-3fd2caa5f920",
           "b7d9cd08-2a6a-4553-82cf-3e133ff05887"
-        ],
-        "settings": {
-          "color_scheme": "inverse",
-          "newsletter_enable": false,
-          "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
-          "enable_country_selector": false,
-          "enable_language_selector": false,
-          "payment_enable": true,
-          "margin_top": 0,
-          "padding_top": 52,
-          "padding_bottom": 0
-        }
+        ]
       },
       "main-password-footer": {
-        "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
-        }
+        },
+        "type": "main-password-footer"
       },
       "language-switcher": {
-        "type": "language-switcher",
         "settings": {
-        }
+        },
+        "type": "language-switcher"
       },
       "header": {
-        "type": "header",
         "settings": {
-          "color_scheme": "accent-1",
+          "margin_bottom": 20,
+          "enable_sticky_header": true,
           "logo": "shopify:\/\/shop_images\/aksys_logo.png",
-          "logo_width": 410,
-          "logo_position": "top-center",
-          "menu": "main-menu",
+          "padding_top": 20,
+          "color_scheme": "accent-1",
           "menu_type_desktop": "mega",
           "show_line_separator": false,
-          "enable_sticky_header": true,
-          "margin_bottom": 20,
-          "padding_top": 20,
-          "padding_bottom": 20
-        }
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "padding_bottom": 20,
+          "logo_width": 410
+        },
+        "type": "header"
       },
       "main-password-header": {
-        "type": "main-password-header",
         "settings": {
-          "logo": "{{ shop.brand.logo }}",
           "logo_max_width": 100,
+          "logo": "{{ shop.brand.logo }}",
           "color_scheme": "background-1"
-        }
+        },
+        "type": "main-password-header"
       }
     },
+    "variant_pills_shadow_horizontal_offset": 0,
+    "card_shadow_horizontal_offset": 0,
+    "show_vendor": false,
+    "mlvedaACS_positionRight": "25px",
     "content_for_index": [
 
     ],
+    "predictive_search_show_vendor": false,
+    "drawer_shadow_blur": 0,
+    "social_twitter_link": "https:\/\/twitter.com\/aksyseustore",
+    "text_boxes_shadow_vertical_offset": 0,
+    "gradient_accent_2": "",
+    "cart_drawer_collection": "",
+    "gradient_accent_1": "",
+    "drawer_border_thickness": 1,
+    "show_cart_note": false,
+    "mlvedaACS_positionLeft": "10px",
+    "mlvedaACS_defaultCurrency": "EUR",
+    "mlvedaACS_positionBottom": "10px",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "card_color_scheme": "background-1",
+    "social_tumblr_link": "",
+    "mlvedaACS_roundDecimalValue": 1,
+    "popup_shadow_vertical_offset": 6,
+    "mlvedaACS_backgroundColor": "inherit",
+    "mlvedaACS_position": "inline",
+    "media_border_thickness": 0,
+    "buttons_radius": 0,
+    "card_border_opacity": 0,
+    "spacing_grid_horizontal": 40,
+    "mlvedaACS_textHoverColor": "inherit",
+    "mlvedaACS_enable": false,
     "blocks": {
       "3294164036280357830": {
-        "type": "shopify:\/\/apps\/mlv-auto-currency-switcher\/blocks\/mlveda-currencies-head\/92ab730f-097e-4571-b27c-3f449e098ca3",
-        "disabled": true,
         "settings": {
-        }
+        },
+        "disabled": true,
+        "type": "shopify:\/\/apps\/mlv-auto-currency-switcher\/blocks\/mlveda-currencies-head\/92ab730f-097e-4571-b27c-3f449e098ca3"
       }
-    }
+    },
+    "social_facebook_link": "",
+    "variant_pills_radius": 40,
+    "card_image_padding": 0,
+    "mlvedaACS_supportedCurrencies": "EUR BGN HRK CZK DKK HUF PLN RON SEK CHF TRY",
+    "popup_border_opacity": 10,
+    "social_snapchat_link": "",
+    "mlvedaACS_hideDecimal": false,
+    "inputs_radius": 2,
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "card_style": "standard",
+    "variant_pills_shadow_vertical_offset": 0,
+    "variant_pills_shadow_blur": 0,
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_borderLineColor": "inherit",
+    "mlvedaACS_displayFlag": true,
+    "inputs_shadow_horizontal_offset": 2,
+    "text_boxes_border_opacity": 0,
+    "popup_shadow_blur": 25
   },
   "presets": {
     "Default": {
