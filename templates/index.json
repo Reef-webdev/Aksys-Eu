@@ -212,6 +212,7 @@
       "blocks": {
         "1659362828a26eb11e-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p>BLOGS<\/p>",
             "heading_size": "h1"
@@ -253,6 +254,7 @@
     },
     "1659362742112c76c9": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
