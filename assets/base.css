@@ -2938,24 +2938,24 @@ details-disclosure > details {
 
 /* Additional Styling Code - Alvin */
 
-a {
+/* a {
   text-decoration:none!important;
   border: none!important;
   box-shadow: none!important;
-}
+} */
 /* 
 .button {
 }
  */
-.button:hover {
+/* .button:hover {
       background-color:#3271b7;
       color: #FFFFFF;
       transition: 0.7s;
       border-width:1px solid #000000;
 
-  }
+  } */
 
-.newsletter__subheading {
+/* .newsletter__subheading {
       color: #FFFFFF;
 }
 
@@ -2982,4 +2982,4 @@ a {
 .newsletter-form__message {
       color: #FFFFFF!important;
 
-}
+} */
