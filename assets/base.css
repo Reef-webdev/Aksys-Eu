@@ -2938,16 +2938,16 @@ details-disclosure > details {
 
 /* Additional Styling Code - Alvin */
 
-/* a {
+a {
   text-decoration:none!important;
   border: none!important;
   box-shadow: none!important;
-} */
+}
 /* 
 .button {
 }
  */
-/* .button:hover {
+.button:hover {
       background-color:#3271b7;
       color: #FFFFFF;
       transition: 0.7s;
@@ -2982,4 +2982,4 @@ details-disclosure > details {
 .newsletter-form__message {
       color: #FFFFFF!important;
 
-} */
+}
