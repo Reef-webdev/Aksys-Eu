@@ -45,80 +45,11 @@ if(typeof jQuery === 'undefined'){
 asl_deferload();
 }
 </script>
-    <script>window.asl_load_selector = function(){ $(".header__inline-menu").append("                <select class=\"asl_root asl_dropdown\"><option class=\"asl_region\" rel-data=\"G4MAM3IWyM\"   value=\"https:\/\/aksyseurope-eu.myshopify.com\">EU<\/option><option class=\"asl_region\" rel-data=\"ZZ\"   value=\"https:\/\/store.aksyseurope.com\">International <\/option>        <\/select>\n        "); 
-    $('body').on('change', 'select.asl_dropdown', function(){
-    $(this).find("option:selected" ).each(function() { 
-        var str = $( this ).val();  
-        if($(this).hasClass('asl_region')) asl_location_override('region_override', $(this).attr('rel-data'));
-        else asl_location_override('country_override', $(this).attr('rel-data'));
-        if(str.length > 0) { window.location = str; }  
-    });
-    
-});
-var cid = asl_country();
-var zid = asl_region();
-
-if($('select.asl_root').length > 0) {
-    $('select.asl_root').each(function(){
-        
-        if($(this).find('option.asl_country[rel-data="'+cid+'"]').length){
-            var obj = $(this).find('option.asl_country[rel-data="'+cid+'"]');
-            $(obj).prop('selected', true);
-        }
-        else if($(this).find('option.asl_region[rel-data="'+zid+'"]').length){
-            var obj = $(this).find('option.asl_region[rel-data="'+zid+'"]');
-            $(obj).prop('selected', true);
-        }
-    });
-}
-
-if($('ul.asl_root').length > 0) {
-    $('ul.asl_root').each(function(){
-        
-        if($(this).find('li.asl_country[rel-data="'+cid+'"]').length){
-            var obj = $(this).find('li.asl_country[rel-data="'+cid+'"]');
-            var text = $(obj).html();
-            $(obj).addClass('active');
-            $(this).find('.asl_selected').html(text.replace(/<\/?a[^>]*>/g, ''));
-        }
-        else if($(this).find('li.asl_region[rel-data="'+zid+'"]').length){
-            var obj = $(this).find('li.asl_region[rel-data="'+zid+'"]');
-            var text = $(obj).html();
-            $(obj).addClass('active');
-            $(this).find('.asl_selected').html(text.replace(/<\/?a[^>]*>/g, ''));
-        }
-    });
-}
-
-if($('div.asl_root').length > 0) {
-    $('div.asl_root').each(function(){
-        if($(this).find('div.asl_country[rel-data="'+cid+'"]').length){
-            var obj =  $(this).find('div.asl_country[rel-data="'+cid+'"]');
-            var text = $(obj).html();
-            $(obj).addClass('active');
-            $(this).find('.asl_selected').html(text.replace(/<\/?a[^>]*>/g, ''));
-        } else if($(this).find('div.asl_region[rel-data="'+zid+'"]').length){
-            var obj = $(this).find('div.asl_region[rel-data="'+zid+'"]');
-            var text = $(obj).html();
-            $(obj).addClass('active');
-            $(this).find('.asl_selected').html(text.replace(/<\/?a[^>]*>/g, ''));
-        }
-    });
-} };</script>
-    {% unless contentForQuerystring contains "Shopify.designMode" %}
+{% unless contentForQuerystring contains "Shopify.designMode" %}
 <style id="asl_filter">
 </style>
 <style id="asl_cleaner">
-.asl_region { font-weight: bolder; border-bottom: 1 solid black; }
-.asl_country { font-style: italic; }
-.asl_root li { list-style: none;}
-ul.asl_root > li:nth-child(2), div.asl_root div.asl_dropdown { display: none; }
-ul.asl_root:hover > li:nth-child(2), div.asl_root:hover div.asl_dropdown, 
-ul.asl_root:active > li:nth-child(2), div.asl_root:active div.asl_dropdown { display: block; position: absolute; z-index: 9; }
-ul.asl_dropdown li, div.asl_dropdown div { text-align: left;}
-ul.asl_dropdown, div.asl_dropdown { background: white; border: 1px #333 solid; padding: 3px }
-div.asl_country.active, li.asl_country.active, div.asl_region.active, li.asl_region.active  {display: none;}
-#preview-selector .asl_root { border: 1px solid black; padding: 5px; }.asl_discard  { visibility: none !important; opacity: 0 !important }
+.asl_discard  { visibility: none !important; opacity: 0 !important }
 </style>
 <style>
     </style>
