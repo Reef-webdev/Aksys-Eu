@@ -427,7 +427,7 @@
   "shopify": {
     "checkout": {
       "payment": {
-        "card_number_placeholder": "Credit\/Debit Card"
+        "card_number_placeholder": "Credit \/ Debit Card"
       }
     }
   }
