@@ -253,10 +253,54 @@
         "padding_bottom": 52
       }
     },
+    "1664210568b6b8534f": {
+      "type": "rich-text",
+      "blocks": {
+        "1664210568dc044d8c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>BLOGS<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1664210568dc044d8c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1664210568dc044d8c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664210568dc044d8c-0",
+        "1664210568dc044d8c-1",
+        "1664210568dc044d8c-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1659362742112c76c9": {
       "type": "featured-blog",
       "settings": {
-        "heading": "BLOGS",
+        "heading": "",
         "heading_size": "h2",
         "blog": "news",
         "post_limit": 2,
@@ -303,6 +347,7 @@
     "featured-collection-1",
     "1660230877c4712b5f",
     "16593628283412789d",
+    "1664210568b6b8534f",
     "1659362742112c76c9",
     "newslettter"
   ]
