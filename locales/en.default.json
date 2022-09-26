@@ -423,5 +423,12 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "payment": {
+        "card_number_placeholder": "CREDIT OR DEBIT CARD"
+      }
+    }
   }
 }
