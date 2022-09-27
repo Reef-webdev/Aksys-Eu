@@ -71,6 +71,18 @@
         <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
+
+
+    <div class="field">
+        <input required type="order" id="ContactForm-order"  class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.order' | t }}]"  value="{% if form.order %}{{ form.order }}{% elsif customer %}{{ customer.order }}{% endif %}" placeholder="{{ 'Enter your order number' | t }} ">
+        <label class="field__label" for="ContactForm-order">{{ 'templates.contact.form.order' | t }}</label>
+      </div>
+
+    <div class="field">
+        <input required type="Store" id="Store" class="field__input" name="contact[{{ 'templates.contact.form.Store' | t }}]"  value="{% if form.Store %}{{ form.Store }}{% elsif customer %}{{ customer.Store }}{% endif %}" placeholder="{{ 'Enter your Store' | t }}">
+        <label class="field__label" for="ContactForm-Store">{{ 'templates.contact.form.Store' | t }}</label>
+      </div>
+    
       <div class="field">
         <textarea
           rows="10"
