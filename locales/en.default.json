@@ -209,6 +209,8 @@
         "name": "Name",
         "email": "Email",
         "phone": "Phone number",
+        "order": "Order Number *",
+        "Store": "UK & Europe Store OR EU Store *",
         "comment": "Comment",
         "send": "Send",
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
