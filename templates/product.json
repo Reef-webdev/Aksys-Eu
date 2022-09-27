@@ -55,6 +55,11 @@
           "type": "description",
           "settings": {
           }
+        },
+        "0877b83c-1650-4bca-8e3f-d3c00d58da11": {
+          "type": "shopify:\/\/apps\/pre-order-manager-preorder\/blocks\/preorder-button-block\/7053ce2a-18da-4e24-98b3-3fdd20b313e7",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -64,6 +69,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "0877b83c-1650-4bca-8e3f-d3c00d58da11",
         "buy_buttons",
         "share",
         "description"
