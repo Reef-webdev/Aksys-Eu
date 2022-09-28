@@ -37,10 +37,55 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1664353201779cb8c3": {
+      "type": "rich-text",
+      "blocks": {
+        "16643532015229f25e-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16643532015229f25e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shipping for In Stock items starts on Monday, 3rd October 202<\/p>"
+          }
+        },
+        "16643532015229f25e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16643532015229f25e-0",
+        "16643532015229f25e-1",
+        "16643532015229f25e-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "16611658805041e4c2"
+    "16611658805041e4c2",
+    "1664353201779cb8c3"
   ]
 }

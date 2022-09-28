@@ -1,5 +1,49 @@
 {
   "sections": {
+    "1664353142b525d143": {
+      "type": "rich-text",
+      "blocks": {
+        "16643531423f3232d8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shipping for In Stock items starts on Monday,3rd October 2022<\/p>"
+          }
+        },
+        "16643531423f3232d8-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16643531423f3232d8-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16643531423f3232d8-1",
+        "16643531423f3232d8-0",
+        "16643531423f3232d8-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -32,55 +76,11 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "1664353142b525d143": {
-      "type": "rich-text",
-      "blocks": {
-        "16643531423f3232d8-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "16643531423f3232d8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Shipping for In Stock items starts on Monday,3rd October 2022<\/p>"
-          }
-        },
-        "16643531423f3232d8-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16643531423f3232d8-0",
-        "16643531423f3232d8-1",
-        "16643531423f3232d8-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
+    "1664353142b525d143",
     "main",
-    "1661165745aacb1546",
-    "1664353142b525d143"
+    "1661165745aacb1546"
   ]
 }
