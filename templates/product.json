@@ -1,5 +1,49 @@
 {
   "sections": {
+    "1664353268b3cf0956": {
+      "type": "rich-text",
+      "blocks": {
+        "166435326873674934-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166435326873674934-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shipping for Instock Items starts Monday 3rd October 2022<\/p>"
+          }
+        },
+        "166435326873674934-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166435326873674934-0",
+        "166435326873674934-1",
+        "166435326873674934-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -39,6 +83,11 @@
           "settings": {
           }
         },
+        "0877b83c-1650-4bca-8e3f-d3c00d58da11": {
+          "type": "shopify:\/\/apps\/pre-order-manager-preorder\/blocks\/preorder-button-block\/7053ce2a-18da-4e24-98b3-3fdd20b313e7",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -53,11 +102,6 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
-        },
-        "0877b83c-1650-4bca-8e3f-d3c00d58da11": {
-          "type": "shopify:\/\/apps\/pre-order-manager-preorder\/blocks\/preorder-button-block\/7053ce2a-18da-4e24-98b3-3fdd20b313e7",
           "settings": {
           }
         }
@@ -248,6 +292,7 @@
     }
   },
   "order": [
+    "1664353268b3cf0956",
     "main",
     "multicolumn",
     "image-with-text",
