@@ -134,7 +134,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our Europe store. For UK & Europe Store click here",
+              "text": "Welcome to our EU store. For UK & Europe Store click here",
               "color_scheme": "inverse",
               "link": "https:\/\/store.aksyseurope.com\/"
             }
