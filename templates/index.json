@@ -1,49 +1,5 @@
 {
   "sections": {
-    "1664352808ef94d25f": {
-      "type": "rich-text",
-      "blocks": {
-        "16643528087aef8c39-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "16643528087aef8c39-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Shipping will begin on all released titles from Wednesday 5th October 2022, for Pre-Order items please refer to product pages for release dates. <\/p>"
-          }
-        },
-        "16643528087aef8c39-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16643528087aef8c39-0",
-        "16643528087aef8c39-1",
-        "16643528087aef8c39-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -386,7 +342,6 @@
     }
   },
   "order": [
-    "1664352808ef94d25f",
     "slideshow",
     "rich-text-2",
     "featured-collection-1",
