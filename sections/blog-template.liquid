@@ -1,4 +1,4 @@
-{% include 'spurit_po2_section_snippet', product: null, products: collections[section.settings.coll].products %}
+
 {% assign show_blog_tags = section.settings.show_tags %}
 {% assign show_blog_rss = section.settings.show_rss %}
 {% assign show_comments = section.settings.show_blog_comments %}
@@ -86,7 +86,7 @@
         </div>
     </div>
 </section>
-{% assign sp_paginate_by = paginate.page_size %}{% endpaginate %}
+{% endpaginate %}
 
 {%- assign collection = collections[section.settings.coll] -%}
 {% unless collection.empty? %}
@@ -152,7 +152,7 @@
     </section>
 {% endunless %}
 
-{% if sp_paginate_by %}{% render 'spurit_po2_collection_template_snippet', paginate_by: sp_paginate_by %}{% endif %}{% schema %}
+{% schema %}
 {
     "name": "Blog",
     "class": "js-section__blog",
