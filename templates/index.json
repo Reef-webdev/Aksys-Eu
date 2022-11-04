@@ -5,14 +5,13 @@
       "blocks": {
         "slide-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Virche_banner.png",
             "heading": "",
             "heading_size": "medium",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "https:\/\/store.aksyseurope.com\/products\/virche-evermore-error-salvation-standard-edition-nintendo-switch%E2%84%A2",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
