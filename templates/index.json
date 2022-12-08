@@ -42,7 +42,7 @@
         "1ce6d681-96d0-421c-a9f3-373b58675977": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AKSYS_LP_BANNER.png",
+            "image": "shopify:\/\/shop_images\/loverpretend_out_now.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -140,7 +140,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "featured-games",
@@ -171,7 +171,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/OL_Cafe-enchante.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": "https:\/\/www.cafe-enchante.aksyseurope.com\/"
           }
@@ -181,7 +181,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/OL_Piofiore.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": "https:\/\/www.piofiore.aksyseurope.com\/"
           }
