@@ -77,14 +77,13 @@
         },
         "d74d751c-778e-4322-a416-8999d3e3fa7d": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/olympia_banner.png",
+            "image": "shopify:\/\/shop_images\/ValentinesBanner.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/olympia-soiree",
+            "link": "shopify:\/\/collections\/holiday-sale-2022",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
