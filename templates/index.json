@@ -3,6 +3,24 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "d74d751c-778e-4322-a416-8999d3e3fa7d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ValentinesBanner.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/holiday-sale-2022",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide-1": {
           "type": "slide",
           "settings": {
@@ -74,32 +92,14 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "d74d751c-778e-4322-a416-8999d3e3fa7d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ValentinesBanner.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/collections\/holiday-sale-2022",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "d74d751c-778e-4322-a416-8999d3e3fa7d",
         "slide-1",
         "slide-2",
         "1ce6d681-96d0-421c-a9f3-373b58675977",
-        "slide-0",
-        "d74d751c-778e-4322-a416-8999d3e3fa7d"
+        "slide-0"
       ],
       "settings": {
         "layout": "full_bleed",
